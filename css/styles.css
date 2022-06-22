@@ -949,6 +949,10 @@ address {
   opacity: 0;
 }
 
+.checkbox:focus ~ .checkbox-box {
+  fill: var(--hover-color);
+}
+
 .checkbox-policy {
   margin-left: 5px;
 
